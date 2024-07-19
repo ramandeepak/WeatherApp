@@ -135,7 +135,7 @@ struct CurrentWeatherView: View {
                         Button(action: {
                             showHourlyForecastView = true
                         }, label: {
-                            Text("Weekly Forecast ")
+                            Text("Hourly Forecast ")
                                 .foregroundColor(.white)
                                 .font(.title3)
                             
