@@ -49,3 +49,4 @@ If it wasn't for the time constraint, the following improvements/additions could
     viewmodel itself. Ideally, viewmodel should prep-up the data returned from the service layer for presentation.
   - WeatherIconMapper can be improved to accommodate all weather conditions; include image assets for showing icons that matches all weather conditions.
   - Computed properties in the model can be moved to the appropriate viewmodels so that models remain clean of any logic.
+  - Also, Combine extensions could be used in place of traditional URLSession data task calls; For any back-to-back/nested API calls, async/await could be used.
