@@ -1,5 +1,5 @@
 # WeatherApp
-App talks to Open Weather API
+App talks to Open Weather API.
 It makes use of two end points; one for pulling the current data for the given city and another for pulling the hourly data for the same place.
 
 Note: 
@@ -10,14 +10,17 @@ Note:
 
 # App Flow / App Usage Instructions
 
-App has three screens.
-Welcome screen 
+App has three screens in total.
+
+**Welcome screen** 
   - Displays for five seconds and dimisses itself to show the Current Weather screen; Tapping on 'Get Started' should dimiss the screen immediately.
-Current Weather screen 
+
+**Current Weather screen**
   - Shows the current weather info (per the requirement specified) for any city provided in the text field at the top.
   - User needs to enter a city and press return on the keyboard to see the current weather info from the API
   - Tapping on the 'Hourly Forecast' should take the user to the screen where it shows the hourly forecast data for the same city.
-Hourly Forecast screen
+
+**Hourly Forecast screen**
   - Displays the weather forecast info the next hours [up to 10 datasets] with 3 hours interval [this is by API design].
   - Tapping on 'Back' on the nav bar takes the user back to the 'Current Weather' screen.
 
